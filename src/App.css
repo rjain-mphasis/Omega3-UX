@@ -1,0 +1,153 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App{
+  display: flex;
+}
+.mainpage{
+  background: rgb(240, 238, 245);
+  width: 85%;
+  height: 100vh;
+}
+.sidebar{
+  width: 15%;
+  height: 100vh;
+  background: rgb(116, 116, 156);
+  color: black;
+  text-align: center;
+}
+
+.sidebar ul{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.sidebar ul li{
+  margin-bottom: 10px;
+  padding: 5px 50%;
+  width: 100%;
+  list-style-type: none;
+  text-align: center;
+}
+.sidebar .active{
+  background-color: rgb(80, 161, 190);
+  width: 100%;
+  color: black;
+  box-shadow: 0px 1px 15px -3px black;
+
+}
+.sidebar li .link{
+  text-decoration: none;
+  color: black;
+
+}
+
+.navmock ul{
+  display: flex;
+  justify-content: space-around;
+  background: rgb(203, 203, 224);
+  height: 50px;
+}
+.navmock li .link{
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+}
+.navmock ul li{
+  list-style: none;
+  margin: auto 0;
+}
+.navmock .active{
+  background-color: whitesmoke;
+  padding: 5px 10px;
+  text-align: center;
+  box-shadow: 10px 5px 6px 3px grey;
+}
+
+
+.alert{
+  background-color: aqua;
+  width: 50%;
+  height: 30px;
+  margin: 50px auto;
+  padding: 0px 50px;
+}
+.alerts{
+  background-color: rgb(228, 66, 66);
+  width: 50%;
+  height: 30px;
+  margin: 50px auto;
+  padding: 0px 50px;
+}
+.center{
+  margin: 50px auto;
+}
+.button button{
+  margin: 15px 80px;
+  width: 100px;
+  height: 50px;
+  padding: 10px 10px;
+}
+
+.container{
+  width: 286px;
+  background: rgb(178, 226, 178);
+  height: 50vh;
+  margin: 5px auto;
+}
+.size{
+  width: 286px;
+  height: 180px;
+  background-color: rgb(37, 27, 27);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cardtittle{
+  padding-left: 10px;
+}
+.cardtittle button{
+  width: 130px;
+  height: 30px;
+  background-color: rgb(43, 189, 86);
+  margin-top: 10px;
+}
+div .heading{
+  margin: 10px auto;
+  width: 60%;
+}
+.closebtn{
+  width: 70%;
+  height: 30px;
+  text-align: end;
+  background-color: aquamarine;
+  font-size: large;
+  font-weight: bolder;
+  padding: 4px;
+  margin: 20px auto;
+}
+.closebtns{
+  width: 70%;
+  height: 30px;
+  text-align: end;
+  background-color: gold;
+  font-size: large;
+  font-weight: bolder;
+  padding: 4px;
+  margin: 20px auto;
+}
+#myList{
+width: 220px;
+height: 30px;
+margin: 20px auto;
+margin: 20px 50px;
+color: white;
+background-color: rgb(15, 15, 153);
+font-size: 17px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
